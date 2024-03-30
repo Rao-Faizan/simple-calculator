@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
-  { message: "enter a frist number", type: "number", name: "firstNumber" },
-  { message: "enter a second number", type: "number", name: "secondNumber" },
+  { message: "enter your frist number", type: "number", name: "firstNumber" },
+  { message: "enter your second number", type: "number", name: "secondNumber" },
   {
     message: "select  one of the opreators to perfom opreation",
     type: "list",
@@ -23,3 +23,21 @@ if (answer.opreator==="Multiplication") {
 if (answer.opreator==="Division") {
   console.log(answer.firstNumber/answer.secondNumber);
 }
+
+console.log("THE END!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
